@@ -35,7 +35,14 @@ INSERT INTO reservation_system.customers (firstName,lastName,email,password) VAL
 -- ------------------------ END ---------------------------
 
 -- CREATE TABLES
--- TODO: insert SQL statements to create tables
+--
+create table 'price'
+(
+    'id'        int auto_increment,
+    'currrency' varchar(100) not null,
+    PRIMARY KEY ('id')
+);
+
 
 
 -- INSERT DATA
